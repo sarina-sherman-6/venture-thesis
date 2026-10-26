@@ -17,7 +17,8 @@ Skip: rumors, unconfirmed reports, deals already in `data.py`, and companies out
 
 ## Where to look
 
-Search the web for each thesis with the current month and year, for example "prebiotic fiber brand raises Series A October 2026". Good sources: company press releases, BevNET, Food Dive, Food Navigator, TechCrunch, Axios Pro, Crunchbase News, Fierce Healthcare, FemTech Insider. If the PitchBook connector is available, use it to confirm amounts and investors. Every deal you add needs at least one source URL you actually opened.
+1. **SEC Form D filings.** Check recent Form D filings on SEC EDGAR full-text search (efts.sec.gov/LATEST/search-index?q=...&forms=D, or www.sec.gov/cgi-bin/browse-edgar?action=getcurrent&type=D) for companies already in `data.py` and for thesis keywords (prebiotic, fiber, non-alcoholic, adaptogen, meat stick, jerky, smart ring, wearable, fertility, menopause). A Form D gives the amount sold and the date, often before press coverage. Use the "total amount sold" as the raise size.
+2. **Web search.** Search the web for each thesis with the current month and year, for example "prebiotic fiber brand raises Series A October 2026". Good sources: company press releases, BevNET, Food Dive, Food Navigator, TechCrunch, Axios Pro, Crunchbase News, Fierce Healthcare, FemTech Insider. If the PitchBook connector is available, use it to confirm amounts and investors. Every deal you add needs at least one source URL you actually opened.
 
 ## How to add a deal
 
