@@ -2,7 +2,7 @@ import json, html
 from data import COMPANIES, DEALS, slug
 
 E = html.escape
-UPDATED = "October 12, 2026"
+UPDATED = "October 27, 2026"
 THESES = [
  ("fiber","Fiber","fiber.html","#6F7F2E"),
  ("nonalc","Non-Alc","non-alc.html","#EF5B2B"),
