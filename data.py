@@ -69,6 +69,8 @@ WEAR = rows("wear", [
  ["OSleeve","Ring accessories","Protective sleeves for Oura and Ultrahuman rings","Not shown","Utility accessory for active wear",0,"Private",None,0,None,""],
  ["Mira","Women's health platforms","At-home hormone testing","Not shown","Lab-grade hormone data integrated into Oura (Feb 2026)",1,"Private",None,0,"2026-02","Oura partnership"],
  ["Midi Health","Women's health platforms","Virtual menopause and midlife care","Not shown","Oura care partner; insurance-covered midlife care at scale",0,"Private",50,1,"2025-10","$50M Series C"],
+ ["NABTA Health","Women's health platforms","Dubai-based at-home diagnostics, virtual visits, and AI care for fertility, pregnancy, and menopause","Phoenix Venture Partners","Moving from direct-to-consumer into employer and insurer partnerships",0,"Private",None,0,"2026-10","Second close of $3M pre-Series A"],
+ ["Unravel Health","Women's health platforms","Micro Lab at-home saliva test measuring multiple hormones in minutes (UK)","Conduit EIS Impact Fund and Wrightwood (leads), Leo Capital, Embryo Ventures, Hermesa, Zinc","University of Glasgow spinout; funds go to new markers and the FDA process",0,"Private",3.3,1,"2026-10","£2.5M raise"],
  ["Maven Clinic","Women's health platforms","Virtual women's and family health clinic","Not shown","Oura partner; reported to be eyeing an IPO window",0,"Private",420,1,None,""],
 ])
 
@@ -116,6 +118,8 @@ DEALS = {
  ("2021-05","May 2021","Mighty Spark","Specialty meat snacks","Acquired","Swander Pace Capital, Branch Brook","PE comp for the category","e",None),
 ],
 "wear": [
+ ("2026-10","Oct 2026","NABTA Health","AI-assisted fertility and menopause care","Second close of $3M pre-Series A","Phoenix Venture Partners","Women's health care shifts toward employer and insurer channels","r",None),
+ ("2026-10","Oct 2026","Unravel Health","At-home saliva hormone test","£2.5M raise","Conduit EIS Impact Fund and Wrightwood (leads), Leo Capital, Embryo Ventures, Zinc","Lab-grade hormone data moves into a home device","r",3.3),
  ("2026-09","Sep 2026","Oura","Smart ring","$2.2B IPO postponed (~$15.6B at midpoint)","Goldman Sachs, Morgan Stanley, J.P. Morgan (underwriters)","Profitable and growing ~90%, but chose to wait on valuation","e",2200),
  ("2026-09","Sep 2026","Ultrahuman","Smart ring","$70M round","Not disclosed","Challenger funding as it returns to the U.S.","r",70),
  ("2025-11","Nov 2025","Lumia","Smart earrings","$7M raise","Not disclosed","Earrings as the next form factor","r",7),
