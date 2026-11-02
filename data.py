@@ -42,6 +42,7 @@ MEAT = rows("meat", [
  ["New Primal","Meat sticks","Clean-label sticks, including kids' minis at Aldi","Not shown","Roadmap to $100M+ retail sales in 2026 across about 15,000 doors; tripled capacity",1,"Private",21.2,1,"2026-06","Named Processor of the Year"],
  ["Singing Pastures","Meat sticks","Female-founded meat sticks built for women on the go","Bullish","Targets women, one of the fastest-growing on-the-go protein segments",1,"Private",None,0,"2026-04","Bullish investment"],
  ["Righteous Felon","Meat sticks","Craft jerky and meat sticks","GroundForce Capital","Backed by the fund behind Liquid Death and OWYN",1,"Private",None,0,"2026","GroundForce investment"],
+ ["WILDE","Meat sticks","Protein chips made mostly from chicken breast","S2G Investments","Sales past $100M across 35,000+ doors; opened a 130,000 sq ft USDA plant",0,"Private",60,1,"2026-10","$40M investment from S2G"],
  ["Mighty Spark","Meat sticks","Specialty meat snacks and sausages","Swander Pace Capital, Branch Brook Holdings","PE roll-up comp for the category",0,"Acquired",None,0,"2021-05","Acquired by Swander Pace"],
  ["4505 Meats","Meat sticks","Pork rinds and meat snacks","Benestar Brands (acquirer)","Sold to a holding company planning to expand beyond meat snacks",0,"Acquired",None,0,None,""],
  ["Jack Link's","Strategics","Category's legacy leader in jerky and sticks","Family-owned","Lost 573 basis points of share in 2025 as better-for-you brands grew",0,"Private",None,0,None,""],
@@ -71,6 +72,8 @@ WEAR = rows("wear", [
  ["Midi Health","Women's health platforms","Virtual menopause and midlife care","Not shown","Oura care partner; insurance-covered midlife care at scale",0,"Private",50,1,"2025-10","$50M Series C"],
  ["NABTA Health","Women's health platforms","Dubai-based at-home diagnostics, virtual visits, and AI care for fertility, pregnancy, and menopause","Phoenix Venture Partners","Moving from direct-to-consumer into employer and insurer partnerships",0,"Private",None,0,"2026-10","Second close of $3M pre-Series A"],
  ["Unravel Health","Women's health platforms","Micro Lab at-home saliva test measuring multiple hormones in minutes (UK)","Conduit EIS Impact Fund and Wrightwood (leads), Leo Capital, Embryo Ventures, Hermesa, Zinc","University of Glasgow spinout; funds go to new markers and the FDA process",0,"Private",3.3,1,"2026-10","£2.5M raise"],
+ ["Gameto","Women's health platforms","Stem-cell IVF (Fertilo) and a cell therapy to delay menopause","Overwater Ventures (Series C lead)","Ferring deal worth up to $1.38B after $127M raised; Fertilo in U.S. Phase 3",0,"Acquired",127,0,"2026-10","Ferring to acquire for up to $1.38B"],
+ ["Willow","Women's health platforms","Wearable breast pumps plus a maternal care app","Not shown","Bought Elvie in 2025; now adding Swehl and Momtech",0,"Private",None,0,"2026-10","Acquired Swehl and Momtech"],
  ["Maven Clinic","Women's health platforms","Virtual women's and family health clinic","Not shown","Oura partner; reported to be eyeing an IPO window",0,"Private",420,1,None,""],
 ])
 
@@ -108,6 +111,7 @@ DEALS = {
  ("2024-07","Jul 2024","Athletic Brewing","NA beer","$50M at ~$800M","General Atlantic (lead)","Valuation roughly doubled in two years","r",50),
 ],
 "meat": [
+ ("2026-10","Oct 2026","WILDE","Chicken-breast protein chips","$40M investment","S2G Investments","Meat protein moving beyond sticks into the salty-snack aisle; sales past $100M","r",40),
  ("2026-04","Apr 2026","Singing Pastures","Female-founded meat sticks","Investment","Bullish","Consumer investors back women-focused protein","r",None),
  ("2026-03","Mar 2026","Good Warrior","PepsiCo beef sticks","Brand launch","PepsiCo","A top strategic enters meat sticks","s",None),
  ("2026-03","Mar 2026","Beyond","Plant-based meat","Rebrand to Beyond, The Plant Protein Co.","","Plant-based leader drops 'meat' from its name","s",None),
@@ -118,6 +122,8 @@ DEALS = {
  ("2021-05","May 2021","Mighty Spark","Specialty meat snacks","Acquired","Swander Pace Capital, Branch Brook","PE comp for the category","e",None),
 ],
 "wear": [
+ ("2026-10","Oct 2026","Gameto","Stem-cell IVF and ovarian-aging therapies","Ferring to acquire for up to $1.38B incl. milestones","Ferring Pharmaceuticals; Overwater Ventures led its $44M Series C","Big pharma pays up for fertility and menopause science after $127M of venture funding","e",1380),
+ ("2026-10","Oct 2026","Willow","Wearable breast pumps","Acquires Swehl and Momtech (terms undisclosed)","Willow (acquirer)","Femtech device leader keeps rolling up the category after Elvie","e",None),
  ("2026-10","Oct 2026","NABTA Health","AI-assisted fertility and menopause care","Second close of $3M pre-Series A","Phoenix Venture Partners","Women's health care shifts toward employer and insurer channels","r",None),
  ("2026-10","Oct 2026","Unravel Health","At-home saliva hormone test","£2.5M raise","Conduit EIS Impact Fund and Wrightwood (leads), Leo Capital, Embryo Ventures, Zinc","Lab-grade hormone data moves into a home device","r",3.3),
  ("2026-09","Sep 2026","Oura","Smart ring","$2.2B IPO postponed (~$15.6B at midpoint)","Goldman Sachs, Morgan Stanley, J.P. Morgan (underwriters)","Profitable and growing ~90%, but chose to wait on valuation","e",2200),
