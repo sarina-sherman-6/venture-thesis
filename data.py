@@ -53,6 +53,7 @@ MEAT = rows("meat", [
  ["Force of Nature Meats","Organ meat","Regenerative ground beef blended with liver and heart","Not shown","Organ meat in a format people already cook with",0,"Private",None,0,None,""],
  ["Beyond","Plant-based","Plant-based meat, now rebranded as a plant protein company","Public","Q4 2025 revenue fell about 20%; gross margin dropped to 2.8% in 2025",0,"Declining",None,0,"2026-03","Rebrand to Beyond, The Plant Protein Co."],
  ["Impossible Foods","Plant-based","Plant-based burgers, sausage, and chicken","Not shown","CEO stepped down; company floated a hybrid half-beef burger",0,"Declining",None,0,"2026","CEO transition"],
+ ["Eat Scoops","Plant protein snacks (adjacent)","Peanut protein snacks","Undisclosed","Plant-based comp in the protein snack aisle where meat sticks compete; new funding is aimed at Target retail growth",1,"Private",2,0,"2026-11","Raised $2M to fuel Target retail growth (Nosh, Nov 9, 2026)"],
 ])
 
 WEAR = rows("wear", [
