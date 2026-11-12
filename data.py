@@ -54,6 +54,7 @@ MEAT = rows("meat", [
  ["Beyond","Plant-based","Plant-based meat, now rebranded as a plant protein company","Public","Q4 2025 revenue fell about 20%; gross margin dropped to 2.8% in 2025",0,"Declining",None,0,"2026-03","Rebrand to Beyond, The Plant Protein Co."],
  ["Impossible Foods","Plant-based","Plant-based burgers, sausage, and chicken","Not shown","CEO stepped down; company floated a hybrid half-beef burger",0,"Declining",None,0,"2026","CEO transition"],
  ["Eat Scoops","Plant protein snacks (adjacent)","Peanut protein snacks","Undisclosed","Plant-based comp in the protein snack aisle where meat sticks compete; new funding is aimed at Target retail growth",1,"Private",2,0,"2026-11","Raised $2M to fuel Target retail growth (Nosh, Nov 9, 2026)"],
+ ["Vaca Chips","Animal-fat snacks (adjacent)","Organic-corn tortilla chips fried in beef tallow; backed by DeAndre Hopkins","Barrel Ventures (lead), Vanterra, Amberstone, Habitat Partners, RiverPark, AIR Ventures, SuperAngel.Fund; BAM Ventures returned","Adjacent to meat protein: an animal-fat snack riding the beef tallow trend, not a protein snack; second raise in 2026 after a $1.5M seed",1,"Private",7.1,0,"2026-10","Raised $5.6M led by Barrel Ventures, its second round this year after a $1.5M seed"],
 ])
 
 WEAR = rows("wear", [

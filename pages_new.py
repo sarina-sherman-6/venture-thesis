@@ -154,7 +154,8 @@ def meat():
       '<div class="callout"><h3>Short labels win</h3><p>Grass-fed meat snack volumes grew 81% in 2025 (Circana). Jack Link\'s now markets three-ingredient sticks, and Archer grew 57% with clean-label, culinary flavors.</p><p>Plant-based meat moved the other way. NIQ\'s Chris Costagli says shoppers read plant-based labels and found unfamiliar ingredients, added sugar, and high sodium.</p></div></div>'
       + cards([("Sticks beat jerky on value","Meat sticks average $1.26 an ounce vs. $1.80 for jerky, about 30% cheaper, and come individually wrapped."),
                ("Demand outruns supply","Chomps said it could fill only about 85% of orders while producing 2 million sticks a day."),
-               ("Organ meat goes mainstream","Search interest in beef organ supplements has grown many times over since 2024, led by ancestral-diet influencers.")]))
+               ("Organ meat goes mainstream","Search interest in beef organ supplements has grown many times over since 2024, led by ancestral-diet influencers.")])
+      + '<div class="callout mt"><h3>Market signal (context only): VCs are still chasing protein</h3><p>Crunchbase News reported on November 12, 2026 that venture investment has shifted from meat substitutes to adding protein into packaged foods. Examples include Medici Brands (David Protein) raising a $250M Series B, Wilde Brands raising $40M, and Frozen One raising $8M+.</p><p class="note">Context for the thesis, not companies tracked in the database. Source: Crunchbase News, "VCs Are Still Chasing Protein, Even As Fake Meat Falls Out Of Favor."</p></div>')
     seg = section("segments","Category map","Where the money is moving inside animal protein, and where it is leaving.",
       '<div class="controls" role="group" aria-label="Filter segments"><button class="flt" data-g="seg" data-f="all" aria-pressed="true">All</button><button class="flt" data-g="seg" data-f="growth" aria-pressed="false">Growing</button><button class="flt" data-g="seg" data-f="decline" aria-pressed="false">Declining</button></div>' +
       table(["Segment","What it is","Leaders","Signal","Watch-outs"],[
@@ -224,6 +225,7 @@ def meat():
       ("Organ supplement claims","Category built on influencer enthusiasm more than clinical data.","Testing, sourcing transparency, and structure and function claims only"),
       ("Policy reversal","The next guidelines could swing back toward plant proteins.","Products that win on taste and convenience, not policy")])
     srcs = sources_section([
+      src("Crunchbase News","2026, November 12","VCs Are Still Chasing Protein, Even As Fake Meat Falls Out Of Favor","https://news.crunchbase.com/venture/protein-startups-raise-funding-medici/"),
       src("Fortune","2026, February 10","Meat snacks have emerged as the clear winner of America's GLP-1 shift","https://fortune.com/2026/02/10/meat-snacks-have-emerged-as-the-clear-winner-of-americas-seismic-glp-1-consumption-shift-while-popcorn-is-down-bad/"),
       src("Snack Food & Wholesale Bakery","2026, July 22","State of the Industry 2026: Meat snacks are beefing up","https://www.snackandbakery.com/articles/116070-state-of-the-industry-2026-meat-snacks-are-beefing-up"),
       src("Feedstuffs / CoBank","2026, June 2","Rising protein demand drives meat snack growth","https://www.feedstuffs.com/agribusiness-news/rising-protein-demand-drives-meat-snack-growth"),
