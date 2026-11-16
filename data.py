@@ -41,6 +41,7 @@ MEAT = rows("meat", [
  ["Archer","Meat sticks","Grass-fed beef, turkey, and now chicken sticks","Not shown","Sales up 57% in 2025; set a $300M sales goal for 2025",0,"Private",None,0,"2026-04","Star Wars collab and chicken launch"],
  ["New Primal","Meat sticks","Clean-label sticks, including kids' minis at Aldi","Not shown","Roadmap to $100M+ retail sales in 2026 across about 15,000 doors; tripled capacity",1,"Private",21.2,1,"2026-06","Named Processor of the Year"],
  ["Singing Pastures","Meat sticks","Female-founded meat sticks built for women on the go","Bullish","Targets women, one of the fastest-growing on-the-go protein segments",1,"Private",None,0,"2026-04","Bullish investment"],
+ ["Angus Way","Meat sticks","Grass-fed beef sticks pitched as a simpler alternative to protein bars (London)","Neil Butler (lead, ex-Meridian Foods), angel investors","UK meat stick startup raising early capital, a sign the category is spreading beyond the U.S.",0,"Private",0.17,0,"2026-11","£126K pre-seed"],
  ["Righteous Felon","Meat sticks","Craft jerky and meat sticks","GroundForce Capital","Backed by the fund behind Liquid Death and OWYN",1,"Private",None,0,"2026","GroundForce investment"],
  ["Mighty Spark","Meat sticks","Specialty meat snacks and sausages","Swander Pace Capital, Branch Brook Holdings","PE roll-up comp for the category",0,"Acquired",None,0,"2021-05","Acquired by Swander Pace"],
  ["4505 Meats","Meat sticks","Pork rinds and meat snacks","Benestar Brands (acquirer)","Sold to a holding company planning to expand beyond meat snacks",0,"Acquired",None,0,None,""],
@@ -58,7 +59,7 @@ MEAT = rows("meat", [
 ])
 
 WEAR = rows("wear", [
- ["Oura","Smart rings","Smart ring plus membership; sleep, cycle, pregnancy, and metabolic insights","Fidelity (lead, 2025), Dexcom, Forerunner Ventures","About 72% of members are women; 5.7M paid members; postponed a $2.2B IPO on Sep 29, 2026",0,"Private",1500,1,"2026-09","IPO postponed"],
+ ["Oura","Smart rings","Smart ring plus membership; sleep, cycle, pregnancy, and metabolic insights","Fidelity (lead, 2025), Dexcom, Forerunner Ventures","About 72% of members are women; 6M+ members; postponed a $2.2B IPO on Sep 29, 2026, then agreed to buy AI primary care company Counsel Health for $625M cash",0,"Private",1500,1,"2026-11","Agreed to acquire Counsel Health for $625M"],
  ["Ultrahuman","Smart rings","Titanium ring with no subscription; Ring Pro shipping in the U.S.","Not shown","About $140M annualized revenue (Sacra); demand ran far ahead of U.S. supply",1,"Private",70,1,"2026-09","$70M round"],
  ["Circular","Smart rings","Smart ring; Ring 3 Pro and Slim due in early 2027","Not shown","Positioning around an FDA-cleared ECG feature",0,"Private",None,0,None,""],
  ["Movano Evie","Smart rings","Women-first smart ring, $269, no subscription","Public (Nasdaq: MOVE)","Early women-specific ring; a useful lesson in how hard hardware distribution is",0,"Public",None,0,None,""],
@@ -72,6 +73,7 @@ WEAR = rows("wear", [
  ["Mira","Women's health platforms","At-home hormone testing","Not shown","Lab-grade hormone data integrated into Oura (Feb 2026)",1,"Private",None,0,"2026-02","Oura partnership"],
  ["Midi Health","Women's health platforms","Virtual menopause and midlife care","Not shown","Oura care partner; insurance-covered midlife care at scale",0,"Private",50,1,"2025-10","$50M Series C"],
  ["Maven Clinic","Women's health platforms","Virtual women's and family health clinic","Not shown","Oura partner; reported to be eyeing an IPO window",0,"Private",420,1,None,""],
+ ["Nanopath","Women's health platforms","Point-of-care molecular vaginal health test with results in about 15 minutes, no outside lab","Norwest Ventures and SV Health Investors MedTech Convergence Fund (co-leads), Labcorp Venture Fund, Elderberry Ventures, GingerBread Capital, Alumni Ventures","Diagnostics hardware for a common women's health need, with a lab strategic on the cap table",0,"Private",25,1,"2026-11","$25M Series B"],
 ])
 
 COMPANIES = FIBER + NONALC + MEAT + WEAR
@@ -108,6 +110,7 @@ DEALS = {
  ("2024-07","Jul 2024","Athletic Brewing","NA beer","$50M at ~$800M","General Atlantic (lead)","Valuation roughly doubled in two years","r",50),
 ],
 "meat": [
+ ("2026-11","Nov 2026","Angus Way","UK grass-fed beef sticks","£126K pre-seed (~$0.17M)","Neil Butler (lead), angel investors","Meat sticks get angel money in the UK","r",0.17),
  ("2026-04","Apr 2026","Singing Pastures","Female-founded meat sticks","Investment","Bullish","Consumer investors back women-focused protein","r",None),
  ("2026-03","Mar 2026","Good Warrior","PepsiCo beef sticks","Brand launch","PepsiCo","A top strategic enters meat sticks","s",None),
  ("2026-03","Mar 2026","Beyond","Plant-based meat","Rebrand to Beyond, The Plant Protein Co.","","Plant-based leader drops 'meat' from its name","s",None),
@@ -118,6 +121,8 @@ DEALS = {
  ("2021-05","May 2021","Mighty Spark","Specialty meat snacks","Acquired","Swander Pace Capital, Branch Brook","PE comp for the category","e",None),
 ],
 "wear": [
+ ("2026-11","Nov 2026","Oura","Smart ring","Agrees to acquire Counsel Health for $625M cash","Oura (acquirer); Counsel backed by a16z, GV","Post-IPO-delay, the ring leader buys a care layer on top of its data","e",625),
+ ("2026-11","Nov 2026","Nanopath","Point-of-care vaginal diagnostics","$25M Series B","Norwest Ventures, SV Health Investors (co-leads), Labcorp Venture Fund","Lab strategic backs fast point-of-care women's testing","r",25),
  ("2026-09","Sep 2026","Oura","Smart ring","$2.2B IPO postponed (~$15.6B at midpoint)","Goldman Sachs, Morgan Stanley, J.P. Morgan (underwriters)","Profitable and growing ~90%, but chose to wait on valuation","e",2200),
  ("2026-09","Sep 2026","Ultrahuman","Smart ring","$70M round","Not disclosed","Challenger funding as it returns to the U.S.","r",70),
  ("2025-11","Nov 2025","Lumia","Smart earrings","$7M raise","Not disclosed","Earrings as the next form factor","r",7),
